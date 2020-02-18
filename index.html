@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doe sangue! Doe Vida!</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
 </head>
 
 <body>
     <!--Conteúdo do topo-->
     <header>
-        <img class="logo" src="logo.png" alt="DOE" />
+        <img class="logo" src="/logo.png" alt="DOE" />
         <h2>A sua doação importa</h2>
         <p>Até 3 vidas com 1 doação</p>
         <p>Mais de 38.000 doações são necessárias todos os dias</p>
@@ -32,27 +32,19 @@
         <h2>Últimos <span>doadores</span></h2>
         <!--Formulário-->
         <section class="donors">
+            {% for donor in donors %}
+
             <div class="donor">
-                <div class="blood">AB+</div>
-                <p>Luciano Belo</p>
+                <div class="blood">{{donor.blood}}</div>
+                <p>{{donor.name}}</p>
             </div>
-            <div class="donor">
-                <div class="blood">O+</div>
-                <p>Gabriel Bordoni</p>
-            </div>
-            <div class="donor">
-                <div class="blood">A+</div>
-                <p>Guilherme Aguiar</p>
-            </div>
-            <div class="donor">
-                <div class="blood">B+</div>
-                <p>Guilherme Henrique</p>
-            </div>
+
+            {%endfor%}
         </section>
     </main>
     <!--Rodapé-->
     <footer>Com 🖤 Luciano</footer>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
