@@ -1,5 +1,5 @@
 {
-    "name": "MaratonaDev",
+    "name": "Doe-Sangue",
     "version": "1.0.0",
     "description": "",
     "main": "script.js",
@@ -8,15 +8,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lucianobajr/MaratonaDev.git"
+        "url": "git+https://github.com/lucianobajr/Doe-Sangue.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/lucianobajr/MaratonaDev/issues"
+        "url": "https://github.com/lucianobajr/Doe-Sangue/issues"
     },
-    "homepage": "https://github.com/lucianobajr/MaratonaDev#readme",
+    "homepage": "https://github.com/lucianobajr/Doe-Sangue#readme",
     "dependencies": {
         "express": "^4.17.1",
         "nodemon": "^2.0.2",
