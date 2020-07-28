@@ -44,5 +44,5 @@ A segunda versão do Doe-Sangue foi desenvolvida com o obejtivo de utilizar as  
 
 ## Imagens :camera:
 
-<img src=".github/new-3.png" height="350em" /><img src=".github/new-4.png" height="350em" />
+<img src=".github/new-3.png" height="330em" /><img src=".github/new-4.png" height="330em" />
 <img src=".github/new-1.gif" height="345em" /><img src=".github/new-2.gif" height="385em" />  
