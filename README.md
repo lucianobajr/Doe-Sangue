@@ -42,7 +42,59 @@ A segunda versão do Doe-Sangue foi desenvolvida com o obejtivo de utilizar as  
 
 ## Tecnologias :rocket:
 
+:white_check_mark: NodeJs  
+:white_check_mark: ReactJs    
+:white_check_mark: PostgreSQL
+
 ## Imagens :camera:
 
-<img src=".github/new-3.png" height="330em" /><img src=".github/new-4.png" height="330em" />
+<img src=".github/new-3.png" height="335em" /><img src=".github/new-4.png" height="335em" />
 <img src=".github/new-1.gif" height="345em" /><img src=".github/new-2.gif" height="385em" />  
+
+##  :heavy_exclamation_mark: Usar Projeto
+
+### :red_circle:  frontend
+
+<p align="center">
+
+    npm install ou yarn
+
+</p>
+
+<p align="center">
+
+    npm start ou yarn start
+
+</p>
+
+### :red_circle:  backend
+
+<p align="center">
+
+    npm install ou yarn
+
+</p>
+
+É nessário para que a API da aplicação funcione a configuração do banco de dados de preferênica, neste caso um banco Postgres
+
+<p align="center">
+
+    CREATE DATABASE DOE ( command line )
+
+</p>
+
+Como a aplicação utiliza o ORM sequelize, rode o seguinte comando para efetivar as migrations
+
+<p align="center">
+
+    npm sequelize db:migrate ou yarn sequelize db:migrate
+
+</p>
+
+E por fim, rode:
+
+<p align="center">
+
+    npm dev ou  yarn dev
+
+</p>
