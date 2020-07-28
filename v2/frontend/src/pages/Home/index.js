@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux'
 import * as Yup from 'yup'
 import { Form, Input } from '@rocketseat/unform'
-import {Flip} from "react-reveal";
+import { Flip } from "react-reveal";
 
 import api from '../../services/api'
 
@@ -45,7 +45,7 @@ export default function Home() {
         dispatch(DonorAction.donorRequest(name, email, blood))
     }
 
-    function handleClick(){
+    function handleClick() {
         console.log(help)
         setHelp(!help)
         console.log(help)
@@ -72,18 +72,18 @@ export default function Home() {
                 </div>
             </header>
 
-            {help && 
-            <Flip top duration={1000} distance="20px">
-            <section className="form">
-                <h2>Entre na lista de doadores</h2>
-                <Form schema={schema} onSubmit={handleSubmit}>
-                    <Input type="text" name="name" placeholder="Nome Completo" />
-                    <Input type="email" name="email" placeholder="Email" />
-                    <Input type="text" name="blood" placeholder="Tipo sanguíneo" />
-                    <button type="submit" title="Quero Ajudar"><img src={imageButton} alt="" /></button>
-                </Form>
-            </section>
-            </Flip>}
+            {help &&
+                <Flip top duration={1000} distance="20px">
+                    <section className="form">
+                        <h2>Entre na lista de doadores</h2>
+                        <Form schema={schema} onSubmit={handleSubmit}>
+                            <Input type="text" name="name" placeholder="Nome Completo" />
+                            <Input type="email" name="email" placeholder="Email" />
+                            <Input type="text" name="blood" placeholder="Tipo sanguíneo" />
+                            <button type="submit" title="Quero Ajudar"><img src={imageButton} alt="" /></button>
+                        </Form>
+                    </section>
+                </Flip>}
 
             <main>
                 <h2>Últimos <span>doadores</span></h2>
