@@ -14,11 +14,11 @@
 ## Tecnologias :rocket:
 
 :white_check_mark: NodeJs  
-:white_check_mark: Html,css,Js 
+:white_check_mark: Html,css,Js    
 :white_check_mark: PostgreSQL
 
 
-<p>Além do proposto ,foram implementados Dark-Mode  e duas animações ambos com CSS e Js </p>
+<p>Além do proposto ,foram implementados Dark-Mode  e duas animações ambos com css e Js </p>
 
 <p align="center">
 
@@ -44,5 +44,5 @@ A segunda versão do Doe-Sangue foi desenvolvida com o obejtivo de utilizar as  
 
 ## Imagens :camera:
 
-<img src=".github/new-3.png" height="360em" /><img src=".github/new-4.png" height="360em" />
+<img src=".github/new-3.png" height="350em" /><img src=".github/new-4.png" height="350em" />
 <img src=".github/new-1.gif" height="345em" /><img src=".github/new-2.gif" height="385em" />  
