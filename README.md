@@ -11,12 +11,12 @@
 
 <p>O Site 'Doe Sangue' foi desenvolvido a partir da "MaratonaDev" oferecida pela Rockeaset.</p>
 
-<p>Foram utilizadas as seguintes tecnologias:</p>
-<ul>
-  <li>NodeJs  <--->  Back-end</li>
-  <li>Html,CSS,Js <---> Front-end</li>
-  <li>PostgreSQL <---> Banco de Dados</li>
-</ul>
+## Tecnologias :rocket:
+
+:white_check_mark: NodeJs  
+:white_check_mark: Html,css,Js 
+:white_check_mark: PostgreSQL
+
 
 <p>Além do proposto ,foram implementados Dark-Mode  e duas animações ambos com CSS e Js </p>
 
@@ -38,3 +38,11 @@
 
 # Segunda Versão
 
+A segunda versão do Doe-Sangue foi desenvolvida com o obejtivo de utilizar as  tecnologias mais atuais sem perder a essência da primeira versão!
+
+## Tecnologias :rocket:
+
+## Imagens :camera:
+
+<img src=".github/new-3.png" height="360em" /><img src=".github/new-4.png" height="360em" />
+<img src=".github/new-1.gif" height="345em" /><img src=".github/new-2.gif" height="385em" />  
