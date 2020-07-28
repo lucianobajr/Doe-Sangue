@@ -2,6 +2,9 @@ import { Router } from 'express';
 
 const routes = new Router();
 
-routes.get('/', (req, res) => res.json({ message: 'Welcome to Omni CLI' }));
+import DonorController from './app/controllers/DonorController'
+
+routes.get('/donors', DonorController.index);
+routes.post('/donors', DonorController.store);
 
 export default routes;

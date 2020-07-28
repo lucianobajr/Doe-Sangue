@@ -1,11 +1,15 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const Container = styled.div `
+
+
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
     @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
     @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
   header{
       margin-top:50px;
       display:flex;
@@ -62,7 +66,6 @@ export const Container = styled.div `
           font-size: 16px;
           cursor: pointer;
           transition: all .3s ease-in-out 0s;
-
         &:hover{
             background-color: #ffffff;
             color: black;
@@ -85,6 +88,7 @@ export const Container = styled.div `
     padding: 16px 64px;
     align-items: center;
     border-radius: 6px;
+    transition: all .3s ease-in-out 0s;
 
     h2{
       text-align: right;

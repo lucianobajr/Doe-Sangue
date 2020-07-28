@@ -1,4 +1,9 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
+import { ToastContainer } from 'react-toastify'
+
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 export default createGlobalStyle `
     *{
@@ -22,4 +27,11 @@ export default createGlobalStyle `
         cursor: pointer;
     }
 
+`
+
+export const Toast = styled(ToastContainer)
+`
+    .Toastify__toast--success {
+    background: '#ff4f4f';
+  }
 `
